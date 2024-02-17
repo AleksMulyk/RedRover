@@ -8,7 +8,7 @@ public class MathOperation {
         System.out.println(a * b);
         System.out.println(a - b);
         System.out.println(a / b);
-        System.out.println(1.0 * a % b);
+        System.out.println(a % b);
         if (a % 2 == 0) {
             System.out.println(a + " is even number");
         } else {
