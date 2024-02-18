@@ -1,4 +1,4 @@
-package hw1;
+package main.hw1;
 
 public class TypeNumWords {
     public static void main(String[] args) {

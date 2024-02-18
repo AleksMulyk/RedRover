@@ -1,4 +1,4 @@
-package hw2;
+package main.hw2;
 
 public class MathOperation {
     public static void main(String[] args) {
