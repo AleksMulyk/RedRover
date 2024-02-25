@@ -21,6 +21,6 @@ public class codewars3 {
                 rsl.add(arr[i].toString());
             }
         }
-        System.out.println(rsl);;
+        System.out.println(rsl);
     }
 }
