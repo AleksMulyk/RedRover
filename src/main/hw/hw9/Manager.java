@@ -1,25 +1,26 @@
-package main.hw.hw7;
+package main.hw.hw9;
 
-import main.hw.hw9.Month;
-import main.hw.hw9.MonthUtils;
-
-public class Employee {
+public class Manager {
     private String name;
     private int age;
     private char sex;
-    private double salary;
     private double salaryPerDay;
+    private int subordinates;
 
-    public Employee(String name, int age, char sex, double salary, double salaryPerDay) {
+    public Manager(String name, int age, char sex, double salaryPerDay, int subordinates) {
         this.name = name;
         this.age = age;
         this.sex = sex;
-        this.salary = salary;
         this.salaryPerDay = salaryPerDay;
+        this.subordinates = subordinates;
     }
 
-    public boolean isSameName(Employee employee) {
-        return (name.equals(employee));
+    public double getSalary(Month[] monthsArray) {
+        double sum = 0.0;
+        for (int i = 0; i < monthsArray.length; i++) {
+            sum += monthsArray[i].getDaysWorking() * salaryPerDay;
+        }
+        return sum * (1 + 0.01 * subordinates);
     }
 
     public String getName() {
@@ -46,14 +47,6 @@ public class Employee {
         this.sex = sex;
     }
 
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
     public double getSalaryPerDay() {
         return salaryPerDay;
     }
@@ -62,11 +55,11 @@ public class Employee {
         this.salaryPerDay = salaryPerDay;
     }
 
-    public double getSalary(Month[] monthArray) {
-        double sum = 0.0;
-        for (int i = 0; i < monthArray.length; i++) {
-            sum += monthArray[i].getDaysWorking() * salaryPerDay;
-        }
-        return sum;
+    public int getSubordinates() {
+        return subordinates;
+    }
+
+    public void setSubordinates(int subordinates) {
+        this.subordinates = subordinates;
     }
 }
