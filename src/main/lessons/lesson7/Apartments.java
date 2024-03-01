@@ -1,4 +1,4 @@
-package main.lessons.classes7;
+package main.lessons.lesson7;
 
 public class Apartments {
     private int bedrooms;

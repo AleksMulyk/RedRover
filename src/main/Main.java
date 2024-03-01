@@ -5,6 +5,8 @@ import main.hw.hw7.Person;
 import main.hw.hw7.Salary;
 import main.hw.hw9.Manager;
 import main.hw.hw9.MonthUtils;
+import main.lessons.lesson9.BankAccount;
+import main.lessons.lesson9.Date;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,6 +30,28 @@ public class Main {
 
         Manager manager1 = new Manager("Jhon Valdich", 41, 'm', 150.0, 5);
         System.out.println(manager1.getSalary(MonthUtils.SUMMER_MONTHS));
+        System.out.println("=========================================");
+
+        BankAccount account1 = new BankAccount("1234564778-12456");
+        System.out.println(account1.getBalance());
+        account1.credit(1000);
+        System.out.println(account1.getBalance());
+        account1.debit(100);
+        System.out.println(account1.getBalance());
+        account1.debit(1000);
+        System.out.println(account1.getBalance());
+        System.out.println("=========================================");
+
+        Date olddate = new Date(20, 2, 2024);
+
+        Date date = olddate.plusDays(2);
+
+        System.out.print(date.getDay());
+        System.out.print("-");
+        System.out.print(date.getMonth());
+        System.out.print("-");
+        System.out.print(date.getYear());
+
 
 
 
