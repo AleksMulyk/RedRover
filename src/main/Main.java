@@ -3,6 +3,8 @@ package main;
 import main.hw.hw7.Employee;
 import main.hw.hw7.Person;
 import main.hw.hw7.Salary;
+import main.hw.hw9.LicensePlate;
+import main.hw.hw9.LicensePlateMaker;
 import main.hw.hw9.Manager;
 import main.hw.hw9.MonthUtils;
 import main.lessons.lesson9.BankAccount;
@@ -51,6 +53,14 @@ public class Main {
         System.out.print(date.getMonth());
         System.out.print("-");
         System.out.print(date.getYear());
+
+        System.out.println("=========================================");
+
+        LicensePlateMaker nyMaker = new LicensePlateMaker("NY", 1000);
+        LicensePlate plate1 = nyMaker.makeNextPlate();
+        System.out.println(plate1.getPlate());
+
+
 
 
 
