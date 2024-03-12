@@ -7,7 +7,7 @@ Complete the function that takes a non-negative integer n as input, and returns 
 the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
  */
 
-public class codewars1 {
+public class CodeWars1 {
     public static long[] powersOfTwo(int n) {
         long[] rsl = new long[n + 1];
         for (int i = 0; i < rsl.length; i++) {

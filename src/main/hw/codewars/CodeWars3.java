@@ -2,7 +2,7 @@ package main.hw.codewars;
 
 import java.util.ArrayList;
 
-public class codewars3 {
+public class CodeWars3 {
     public static void main(String[] args) {
         Object[] arr = {"Hello", "Goodbye", "Hello Again" };
         ArrayList<String> rsl = new ArrayList<String>();

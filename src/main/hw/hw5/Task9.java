@@ -15,8 +15,6 @@ package main.hw.hw5;
 0
 
  */
-
-
 public class Task9 {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {

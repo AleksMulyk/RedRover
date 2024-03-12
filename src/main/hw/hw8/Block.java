@@ -12,19 +12,22 @@ public class Block {
         this.length = arr[1];
         this.height = arr[2];
         this.volume = this.width * this.length * this.height;
-        this.surfaceArea = 2 * ((this.height * this.width) + (this.height * this.length) +
-                (this.width * this.length));
+        this.surfaceArea = 2 * ((this.height * this.width) + (this.height * this.length)
+                + (this.width * this.length));
     }
 
     public int getWidth() {
         return this.width;
     }
+
     public int getLength() {
         return this.length;
     }
+
     public int getHeight() {
         return this.height;
     }
+
     public int getVolume() {
         return this.volume;
     }

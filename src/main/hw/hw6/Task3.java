@@ -19,7 +19,7 @@ public class Task3 {
                 counter = 0;
                 String s = array[i][j];
                 for (int k = 0; k < s.length(); k++) {
-                    if (s.charAt(k) == 'е' ) {
+                    if (s.charAt(k) == 'е') {
                         counter++;
                     }
                 }

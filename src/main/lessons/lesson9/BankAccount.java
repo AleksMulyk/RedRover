@@ -11,12 +11,15 @@ public class BankAccount {
     public String getAccountNumber() {
         return accountNumber;
     }
+
     public double getBalance() {
         return balance;
     }
+
     public void credit(double amount) {
         this.balance += amount;
     }
+
     public void debit(double amount) {
         double newBalance = balance - amount;
         if (newBalance < 0) {

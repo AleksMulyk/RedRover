@@ -11,6 +11,6 @@ public class LicensePlateMaker {
 
     public LicensePlate makeNextPlate() {
         lastUsedNumber++;
-        return new LicensePlate (prefix + " " + lastUsedNumber);
+        return new LicensePlate(prefix + " " + lastUsedNumber);
     }
 }

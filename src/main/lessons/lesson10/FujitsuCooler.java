@@ -4,7 +4,6 @@ public class FujitsuCooler {
     private int targetTemp;
     private boolean isAcOn = false;
 
-
     public FujitsuCooler(int targetTemp) {
         this.targetTemp = targetTemp;
     }
@@ -28,6 +27,7 @@ public class FujitsuCooler {
     private void turnAcOn() {
         this.isAcOn = true;
     }
+
     private void turnAcOff() {
         this.isAcOn = false;
     }

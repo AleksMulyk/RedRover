@@ -4,6 +4,7 @@ public class Apartments {
     private int bedrooms;
     private double price;
     Address address;
+
     public Apartments() {
 
     }
