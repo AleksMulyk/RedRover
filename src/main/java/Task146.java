@@ -1,5 +1,3 @@
-package main;
-
 public class Task146 {
     public static void main(String[] args) {
         int[] nums = {310};

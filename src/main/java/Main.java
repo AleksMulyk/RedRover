@@ -1,14 +1,12 @@
-package main;
-
-import main.hw.hw7.Employee;
-import main.hw.hw7.Person;
-import main.hw.hw7.Salary;
-import main.hw.hw9.LicensePlate;
-import main.hw.hw9.LicensePlateMaker;
-import main.hw.hw9.Manager;
-import main.hw.hw9.MonthUtils;
-import main.lessons.lesson9.BankAccount;
-import main.lessons.lesson9.Date;
+import hw.hw7.Employee;
+import hw.hw7.Person;
+import hw.hw7.Salary;
+import hw.hw9.LicensePlate;
+import hw.hw9.LicensePlateMaker;
+import hw.hw9.Manager;
+import hw.hw9.MonthUtils;
+import lessons.lesson9.BankAccount;
+import lessons.lesson9.Date;
 
 public class Main {
     public static void main(String[] args) {
