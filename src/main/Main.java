@@ -23,11 +23,11 @@ public class Main {
         Employee[] employees = {employee1, employee2};
         System.out.println(Salary.getSum(employees));
         System.out.println("=========================================");
-        System.out.println(employee1.getSalary(MonthUtils.SUMMER_MONTHS));
-        System.out.println(employee2.getSalary(MonthUtils.SUMMER_MONTHS));
+        System.out.println(employee1.getSalary(MonthUtils.summerMonth));
+        System.out.println(employee2.getSalary(MonthUtils.summerMonth));
         System.out.println("=========================================");
         Manager manager1 = new Manager("Jhon Valdich", 41, 'm', 150.0, 5);
-        System.out.println(manager1.getSalary(MonthUtils.SUMMER_MONTHS));
+        System.out.println(manager1.getSalary(MonthUtils.summerMonth));
         System.out.println("=========================================");
         BankAccount account1 = new BankAccount("1234564778-12456");
         System.out.println(account1.getBalance());
