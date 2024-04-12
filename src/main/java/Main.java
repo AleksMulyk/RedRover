@@ -10,7 +10,7 @@ import lessons.lesson9.Date;
 
 public class Main {
     public static void main(String[] args) {
-        Person peter = new Person("Peter Kravech", 45, 'm');
+        Person peter = new Person("Peter Kravech", 47, 'm');
         Person steven = new Person("Steven Rych", 38, 'm');
         System.out.println(peter.getName());
         System.out.println("=========================================");
